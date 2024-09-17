@@ -1,21 +1,25 @@
-# %%
+#%%
 
 from google.cloud import bigquery
 import os
+from datetime import date
 
-# %%
+#%%
 
-# Variável de ambiente para a chave de conta de serviço
+dt_today = date.today()
+
+# Definindo variável de ambiente para a chave de conta de serviço GCP
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "../../data/credentials_bigquery.json"
 
-# Inicializar o cliente
+# Inicializar o cliente GCP
 client = bigquery.Client()
 
+# Definindo ID projeto GCP e tabela para carregamento dos dados
 dataset_id = 'project-tcc-434118.BRONZE_ATD_CSR'
 table_id = 'tb_interactions'
 
 #%% 
-# Define o esquema da tabela
+# Define o esquema da tabela que vai ser criada e carregado os dados
 schema = [
     bigquery.SchemaField("AGENTDISPID", "STRING"),
     bigquery.SchemaField("CALLSTARTDT", "STRING", mode="REQUIRED"),
@@ -48,18 +52,33 @@ schema = [
 # Configurar job de carremento 
 job_config = bigquery.LoadJobConfig(
     schema=schema,
-    source_format=bigquery.SourceFormat.CSV,
+    source_format=bigquery.SourceFormat.CSV, # Difinindo tipo do arquivo presente no bucket da Cloud Storage
 )
 
+# Caminho do arquivo presente no bucket
 uri = "gs://base_registro_calls/dados_brutos/Citizen_Service_Request__CSR__Call_Center_Calls_20240830.csv"
 
+# Carregamento para carregamento do Job para criação da tabela
 load_job = client.load_table_from_uri(
     uri,
     f"{dataset_id}.{table_id}",
     job_config=job_config
 )
 
-load_job.result()  # Job de carregamento
+# Comando para aguardar a criação do Job, fazendo com que não haja execução de outro código até a finalização
+load_job.result()
+
+def import_query(path):
+    with open(path, "r") as file_query:
+        query_aux = file_query.read()
+
+    return query_aux
+
+query_fmt = import_query("inserir_dt_processamento.sql").format(date=dt_today)
+
+query_job = client.query(query_fmt)
+
+query_job.result()
 
 print(f"Carregamento concluído na tabela {table_id}")
-# %%
+#%%
