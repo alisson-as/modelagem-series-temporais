@@ -19,5 +19,3 @@ execute_job = client.query(query_criacao)
 execute_job.result()
 
 print(f"Criação concluído na tabela project-tcc-434118.SILVER_ATD_CSR.tb_interacao_receptivo")
-
-# %%
