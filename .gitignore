@@ -1,0 +1,6 @@
+*.csv
+*.db
+*.pdf
+*.txt
+data/credentials_bigquery.json
+data/api_config.json
