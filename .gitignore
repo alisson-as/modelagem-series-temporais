@@ -4,7 +4,7 @@
 *.txt
 data/credentials_bigquery.json
 data/api_config.json
-analysis/eda_temp_sp.ipynb
+src/analysis/eda_temp_sp.ipynb
 base_projects/temperature_data_sp/INMET_SE_SP_A714_ITAPEVA_01-01-2019_A_31-12-2019.CSV
 base_projects/temperature_data_sp/INMET_SE_SP_A714_ITAPEVA_01-01-2020_A_31-12-2020.CSV
 base_projects/temperature_data_sp/INMET_SE_SP_A714_ITAPEVA_01-01-2021_A_31-12-2021.CSV
