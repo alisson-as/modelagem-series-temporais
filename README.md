@@ -77,7 +77,7 @@ Modelagem e Previsões
 - **Python**
 - **Pandas**: Para manipulação e organização dos dados;
 - **Scikit-learn**: Para criação e treinamento do modelo Random Forest;
-- **statsmodels**: Para criação e treinamento do modelo ARIMA;
+- **Statsmodels**: Para criação e treinamento do modelo ARIMA;
 - **Matplotlib**: Para visualizações gráficas;
 - **Jupyter Notebook**: Ambiente interativo utilizado para execução do código e visualização dos resultados.
 
