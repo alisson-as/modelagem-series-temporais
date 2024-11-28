@@ -72,7 +72,14 @@ Modelagem e Previsões
 
 ---
 
-### Tecnologias Utilizadas
+### Métricas de Avaliação
+
+- MAPE (Mean Absolute Percentage Error): Mede o erro percentual médio absoluto das previsões;
+- RMSE (Root Mean Square Error): Mede o erro médio quadrático das previsões.
+
+---
+
+## Tecnologias Utilizadas
 
 - **Python**
 - **Pandas**: Para manipulação e organização dos dados;
@@ -83,10 +90,23 @@ Modelagem e Previsões
 
 ---
 
-### Métricas de Avaliação
+## Distribuição do Projeto
 
-- MAPE (Mean Absolute Percentage Error): Mede o erro percentual médio absoluto das previsões;
-- RMSE (Root Mean Square Error): Mede o erro médio quadrático das previsões.
+├── src 
+|   ├── .gitkeep                   # Arquivo para manter diretórios vazios no repositório Git
+|   ├── Citizen_Service_Request__CSR__Call_Center_Calls_-_Data_Dictionary.pdf  
+│                                  # Dicionário de dados detalhando o conjunto utilizado no projeto
+├── src                            # Diretório principal com scripts de ETL e análise
+│   ├── analysis
+│   │   └── analise_e_previsao.ipynb # Notebook com a análise exploratória e previsões da série temporal
+│   ├── etl
+│   │   ├── 01_ingestao_carga_historica.py  # Script para ingestão inicial de dados históricos
+│   │   ├── 02_ingestao_diaria.py           # Script para ingestão diária de dados
+│   │   ├── 03_ingestao_silver.py           # Script para transformação e padronização dos dados (camada Silver)
+│   │   ├── ingestao_silver.sql             # SQL para suporte às transformações da camada Silver
+│   │   └── inserir_dt_processamento.sql    # SQL para registrar a data de processamento
+├── .gitignore                     # Arquivo para especificar arquivos/diretórios a serem ignorados no Git
+├── README.md                      # Documentação principal do projeto
 
 ---
 
