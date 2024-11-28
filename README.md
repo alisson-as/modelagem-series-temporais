@@ -1,4 +1,4 @@
-# Previsão de Séries Temporais com ARIMA e Random Forest
+# Análise e Modelagem de Séries Temporais: Previsão de Chamadas de um Call Center com ARIMA e Random Forest
 
 Este projeto tem como objetivo realizar a previsão de uma série temporal de quantidade de ligações, utilizando abordagens clássicas (ARIMA) e de aprendizagem de máquina (Random Forest). O foco está em compreender a natureza da série temporal, avaliar sua estacionaridade e desenvolver modelos preditivos eficazes.
 Estrutura do Projeto
