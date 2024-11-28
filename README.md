@@ -7,7 +7,7 @@ Este projeto tem como objetivo realizar a previsão de uma série temporal de qu
 ## 📂 Estrutura do Repositório
 
 ```
-├── documentacao  
+├── info  
 |   ├── .gitkeep                            # Arquivo para manter diretórios vazios no repositório Git
 |   ├── dicionario_dados.pdf                # Dicionário de dados detalhando o conjunto utilizado no projeto
 |
