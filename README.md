@@ -1,16 +1,15 @@
 # Previsão de Séries Temporais com ARIMA e Random Forest
 
-# Descrição do Projeto
-
 Este projeto tem como objetivo realizar a previsão de uma série temporal de quantidade de ligações, utilizando abordagens clássicas (ARIMA) e de aprendizagem de máquina (Random Forest). O foco está em compreender a natureza da série temporal, avaliar sua estacionaridade e desenvolver modelos preditivos eficazes.
 Estrutura do Projeto
 
-1. Carregamento, Preparação e Limpeza de Dados
+---
 
-    Tarefas:
-        Carregar os dados e realizar uma inspeção inicial.
-        Resumir os dados, convertendo-os para agregações mensais (ex.: jun/21 = 30).
-        Identificar e lidar com valores faltantes.
+## Carregamento, Preparação e Limpeza de Dados
+
+- Carregar os dados e realizar uma inspeção inicial;
+- Resumir os dados, convertendo-os para agregações mensais (ex.: jun/21 = 30);
+- Identificar e lidar com valores faltantes.
 
 2. Análise Descritiva
 Estatísticas Básicas e Outliers
