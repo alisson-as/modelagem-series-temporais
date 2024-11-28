@@ -5,14 +5,14 @@
 Este projeto tem como objetivo realizar a previsão de uma série temporal de quantidade de ligações, utilizando abordagens clássicas (ARIMA) e de aprendizagem de máquina (Random Forest). O foco está em compreender a natureza da série temporal, avaliar sua estacionaridade e desenvolver modelos preditivos eficazes.
 Estrutura do Projeto
 
-#1. Carregamento, Preparação e Limpeza de Dados
+1. Carregamento, Preparação e Limpeza de Dados
 
     Tarefas:
         Carregar os dados e realizar uma inspeção inicial.
         Resumir os dados, convertendo-os para agregações mensais (ex.: jun/21 = 30).
         Identificar e lidar com valores faltantes.
 
-#2. Análise Descritiva
+2. Análise Descritiva
 Estatísticas Básicas e Outliers
 
     Gerar estatísticas descritivas (ex.: média, mediana, desvio-padrão).
@@ -35,7 +35,7 @@ Análise de Autocorrelação
     Gerar gráficos de Autocorrelação (ACF) e Autocorrelação Parcial (PACF).
     Identificar possíveis parâmetros para modelagem ARIMA.
 
-#3. Previsão com ARIMA
+3. Previsão com ARIMA
 Divisão dos Dados
 
     Separar os dados em conjuntos de treino e teste.
@@ -66,7 +66,7 @@ Modelagem e Previsões
     Plotar as previsões junto à série temporal original.
     Avaliar o desempenho usando MAPE e RMSE.
 
-#5. Conclusão
+5. Conclusão
 
     Comparar os resultados dos modelos ARIMA e Random Forest.
     Identificar o modelo mais adequado para os dados.
@@ -81,26 +81,12 @@ Tecnologias Utilizadas
         scikit-learn (Random Forest e métricas de avaliação)
     Jupyter Notebook
 
-#Como Executar o Projeto
-
-    Clone este repositório:
-
-git clone https://github.com/seuusuario/seuprojeto.git
-
-Instale as dependências:
-
-pip install -r requirements.txt
-
-Execute o notebook no ambiente Jupyter:
-
-    jupyter notebook
-
 Métricas de Avaliação
 
     MAPE (Mean Absolute Percentage Error): Mede o erro percentual médio absoluto das previsões.
     RMSE (Root Mean Square Error): Mede o erro médio quadrático das previsões.
 
-#Contato
+Contato
 
     Autor: Alisson Aragão dos Santos
     Email: alissonaragao1@gmail.com
