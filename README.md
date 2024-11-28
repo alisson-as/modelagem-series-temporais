@@ -38,44 +38,46 @@ Fluxo de tranformação:
 
 ### 2. Análise Descritiva
 
-- Estatísticas e distribuição dos dados;
-- Verificação da Série Temporal;
+- Estatísticas e distribuição dos dados.
+- Verificação da Série Temporal.
 - Análise de Autocorrelação.
 
 ### 3. Previsão com ARIMA
 
-- Aplicar o modelo ARIMA nos dados transformados;
-- Avaliar os resultados com base no AIC (quanto menor, melhor);
+- Aplicar o modelo ARIMA nos dados transformados.
+- Avaliar os resultados com base no AIC (quanto menor, melhor).
 - Analisar os resíduos do modelo (resíduos devem ter distribuição normal dentro da faixa de 95% de confiança).
 
 ### 4. Previsão com Aprendizado de Máquina (Random Forest)
 
-- Divisão dos Dados conjuntos de treino e teste;
-- Treinar o modelo de Random Forest com os dados de treino;
-- Gerar previsões para o conjunto de teste;
-- Plotar as previsões junto à série temporal original;
+- Divisão dos Dados conjuntos de treino e teste.
+- Treinar o modelo de Random Forest com os dados de treino.
+- Gerar previsões para o conjunto de teste.
+- Plotar as previsões junto à série temporal original.
 - Avaliar o desempenho usando MAPE e RMSE.
 
 ### 5. Conclusão
 
-- Comparar os resultados dos modelos ARIMA e Random Forest;
-- Identificar o modelo mais adequado para os dados;
+- Comparar os resultados dos modelos ARIMA e Random Forest.
+- Identificar o modelo mais adequado para os dados.
 - Discussão sobre os desafios enfrentados e possíveis melhorias.
 
 ---
 
 ## 💻 Tecnologias Utilizadas
 
-- **Jupyter Notebook**: Ambiente interativo utilizado para execução do código e visualização dos resultados
-- **BigQuery**: Ambiente na cloud da Google para armazenar, consultar e analisar grandes volumes de dados
-- **Python 3.12.2**: Linguagem de Programação utilizada
-  - **Pandas**: Para manipulação e organização dos dados
-  - **Scikit-learn**: Para criação e treinamento do modelo Random Forest
-  - **Statsmodels**: Para criação e treinamento do modelo ARIMA
-  - **Matplotlib**: Para visualizações gráficas
-  - **Requests**: Realizar requisições HTTP para APIs ou serviços web
-  - **Google.cloud**: Integração com o Google BigQuery para consultas e manipulação de dados
-  - **Pyspark**: Interface Python para o Apache Spark, usada para processamento de grandes volumes de dados de forma distribuída
+- **Jupyter Notebook**: Ambiente interativo utilizado para execução do código e visualização dos resultados.
+- **BigQuery**: Ambiente na cloud da Google para armazenar, consultar e analisar grandes volumes de dados.
+- **Python 3.12.2**: Linguagem de Programação utilizada.
+
+    - **Pandas**: Para manipulação e organização dos dados.
+    - **Scikit-learn**: Para criação e treinamento do modelo Random Forest.
+    - **Statsmodels**: Para criação e treinamento do modelo ARIMA.
+    - **Matplotlib**: Para visualizações gráficas.
+    - **Requests**: Realizar requisições HTTP para APIs ou serviços web.
+    - **Google.cloud**: Integração com o Google BigQuery para consultas e manipulação de dados.
+    - **Pyspark**: Interface Python para o Apache Spark, usada para processamento de grandes volumes de dados de forma distribuída.
+
 
 ---
 
