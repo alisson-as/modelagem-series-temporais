@@ -64,13 +64,6 @@ Fluxo de tranformação:
 
 ---
 
-### Métricas de Avaliação Utilizadas
-
-- MAPE (Mean Absolute Percentage Error): Mede o erro percentual médio absoluto das previsões;
-- RMSE (Root Mean Square Error): Mede o erro médio quadrático das previsões.
-
----
-
 ## 💻 Tecnologias Utilizadas
 
 - **Jupyter Notebook**: Ambiente interativo utilizado para execução do código e visualização dos resultados
