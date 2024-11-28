@@ -1,13 +1,12 @@
 # Análise e Modelagem de Séries Temporais: Previsão de Chamadas de um Call Center com ARIMA e Random Forest
 
 Este projeto tem como objetivo realizar a previsão de uma série temporal de quantidade de ligações, utilizando abordagens clássicas (ARIMA) e de aprendizagem de máquina (Random Forest). O foco está em compreender a natureza da série temporal, avaliar sua estacionaridade e desenvolver modelos preditivos eficazes.
-Estrutura do Projeto
 
 ---
 
 ## 📂 Estrutura do Repositório
 
-```plaintext
+```
 ├── documentacao  
 |   ├── .gitkeep                            # Arquivo para manter diretórios vazios no repositório Git
 |   ├── dicionario_base.pdf                  # Dicionário de dados detalhando o conjunto utilizado no projeto
@@ -15,7 +14,7 @@ Estrutura do Projeto
 │                                          
 ├── src                                     # Diretório principal com scripts de ETL e análise
 │   ├── analysis
-│   │   └── [analise_e_previsao.ipynb]()        # Notebook com a análise exploratória e modelagem
+│   │   └── analise_e_previsao.ipynb        # Notebook com a análise exploratória e modelagem
 │   ├── etl
 │   │   ├── 01_ingestao_carga_historica.py  # Script para ingestão inicial de dados históricos
 │   │   ├── 02_ingestao_diaria.py           # Script para ingestão diária de dados
@@ -94,3 +93,7 @@ Autor: Alisson Aragão dos Santos
 Email: alissonaragao1@gmail.com
 
 LinkedIn: [alisson-aragão-dos-santos](https://www.linkedin.com/in/alisson-arag%C3%A3o-dos-santos-459297120/)
+
+
+
+## Se quiser começar a explorar o projeto, <a href="https://github.com/alisson-as/modelagem-series-temporais/blob/main/src/analysis/analise_e_previsao.ipynb">clique aqui</a>
