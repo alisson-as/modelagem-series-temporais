@@ -5,7 +5,7 @@ Estrutura do Projeto
 
 ---
 
-## Estrutura do Repositório
+## 📂 Estrutura do Repositório
 
 ```plaintext
 ├── documentacao  
@@ -15,7 +15,7 @@ Estrutura do Projeto
 │                                          
 ├── src                                     # Diretório principal com scripts de ETL e análise
 │   ├── analysis
-│   │   └── analise_e_previsao.ipynb        # Notebook com a análise exploratória e modelagem
+│   │   └── [analise_e_previsao.ipynb]()        # Notebook com a análise exploratória e modelagem
 │   ├── etl
 │   │   ├── 01_ingestao_carga_historica.py  # Script para ingestão inicial de dados históricos
 │   │   ├── 02_ingestao_diaria.py           # Script para ingestão diária de dados
@@ -27,7 +27,7 @@ Estrutura do Projeto
 ```
 ---
 
-## Escopo de Projeto
+## 📜 Escopo de Projeto
 
 ### 1. Carregamento, Preparação e Limpeza de Dados
 
@@ -72,7 +72,7 @@ Fluxo de tranformação:
 
 ---
 
-## Tecnologias Utilizadas
+## 💻 Tecnologias Utilizadas
 
 - **Jupyter Notebook**: Ambiente interativo utilizado para execução do código e visualização dos resultados
 - **BigQuery**: Ambiente na cloud da Google para armazenar, consultar e analisar grandes volumes de dados
@@ -87,7 +87,7 @@ Fluxo de tranformação:
 
 ---
 
-## Contato
+## 📞 Contato
 
 Autor: Alisson Aragão dos Santos
 
