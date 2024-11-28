@@ -95,7 +95,6 @@ Modelagem e Previsões
 ├── src 
 |   ├── .gitkeep                   # Arquivo para manter diretórios vazios no repositório Git
 |   ├── Citizen_Service_Request__CSR__Call_Center_Calls_-_Data_Dictionary.pdf  
-│                                  # Dicionário de dados detalhando o conjunto utilizado no projeto
 ├── src                            # Diretório principal com scripts de ETL e análise
 │   ├── analysis
 │   │   └── analise_e_previsao.ipynb # Notebook com a análise exploratória e previsões da série temporal
