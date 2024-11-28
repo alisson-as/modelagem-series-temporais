@@ -83,11 +83,7 @@ Fluxo de tranformação:
 
 ## 📞 Contato
 
-Autor: Alisson Aragão dos Santos
-
-Email: alissonaragao1@gmail.com
-
-LinkedIn: [alisson-aragão-dos-santos](https://www.linkedin.com/in/alisson-arag%C3%A3o-dos-santos-459297120/)
+Alisson Aragão dos Santos | [E-mail](alissonaragao1@gmail.com) | [LinkedIn](https://www.linkedin.com/in/alisson-arag%C3%A3o-dos-santos-459297120/)
 
 
 
