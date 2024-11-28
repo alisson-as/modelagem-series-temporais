@@ -70,13 +70,13 @@ Fluxo de tranformação:
 - **BigQuery**: Ambiente na cloud da Google para armazenar, consultar e analisar grandes volumes de dados.
 - **Python 3.12.2**: Linguagem de Programação utilizada.
 
-    - **Pandas**: Para manipulação e organização dos dados.
-    - **Scikit-learn**: Para criação e treinamento do modelo Random Forest.
-    - **Statsmodels**: Para criação e treinamento do modelo ARIMA.
-    - **Matplotlib**: Para visualizações gráficas.
-    - **Requests**: Realizar requisições HTTP para APIs ou serviços web.
-    - **Google.cloud**: Integração com o Google BigQuery para consultas e manipulação de dados.
-    - **Pyspark**: Interface Python para o Apache Spark, usada para processamento de grandes volumes de dados de forma distribuída.
+    - **pandas**: Para manipulação e organização dos dados.
+    - **scikit-learn**: Para criação e treinamento do modelo Random Forest.
+    - **statsmodels**: Para criação e treinamento do modelo ARIMA.
+    - **matplotlib**: Para visualizações gráficas.
+    - **requests**: Realizar requisições HTTP para APIs ou serviços web.
+    - **google.cloud**: Integração com o Google BigQuery para consultas e manipulação de dados.
+    - **pyspark**: Interface Python para o Apache Spark, usada para processamento de grandes volumes de dados de forma distribuída.
 
 
 ---
