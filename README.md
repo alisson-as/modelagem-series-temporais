@@ -5,7 +5,9 @@ Estrutura do Projeto
 
 ---
 
-Carregamento, Preparação e Limpeza de Dados
+## Escopo de Projeto
+
+### Carregamento, Preparação e Limpeza de Dados
 
 - Carregar os dados e realizar uma inspeção inicial;
 - Resumir os dados, convertendo-os para agregações mensais (ex.: jun/21 = 30);
@@ -13,7 +15,7 @@ Carregamento, Preparação e Limpeza de Dados
 
 ---
 
-## Análise Descritiva
+### Análise Descritiva
 
 Estatísticas e distribuição dos dados:
 - Gerar estatísticas descritivas (ex.: média, mediana, desvio-padrão);
@@ -33,7 +35,7 @@ Análise de Autocorrelação
 
 ---
 
-## Previsão com ARIMA
+### Previsão com ARIMA
 
 Modelagem e Treinamento:
 - Divisão dos Dados em conjuntos de treino e teste;
@@ -51,7 +53,7 @@ Teste e Validação:
 
 ---
 
-## Previsão com Aprendizado de Máquina (Random Forest)
+### Previsão com Aprendizado de Máquina (Random Forest)
 
 Modelagem e Previsões
 - Divisão dos Dados conjuntos de treino e teste;
@@ -70,7 +72,7 @@ Modelagem e Previsões
 
 ---
 
-## Tecnologias Utilizadas
+### Tecnologias Utilizadas
 
 - **Python**
 - **Pandas**: Para manipulação e organização dos dados;
@@ -81,7 +83,7 @@ Modelagem e Previsões
 
 ---
 
-# Métricas de Avaliação
+### Métricas de Avaliação
 
 - MAPE (Mean Absolute Percentage Error): Mede o erro percentual médio absoluto das previsões;
 - RMSE (Root Mean Square Error): Mede o erro médio quadrático das previsões.
