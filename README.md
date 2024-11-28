@@ -5,7 +5,7 @@ Estrutura do Projeto
 
 ---
 
-## Carregamento, Preparação e Limpeza de Dados
+Carregamento, Preparação e Limpeza de Dados
 
 - Carregar os dados e realizar uma inspeção inicial;
 - Resumir os dados, convertendo-os para agregações mensais (ex.: jun/21 = 30);
@@ -91,5 +91,7 @@ Modelagem e Previsões
 ## Contato
 
 Autor: Alisson Aragão dos Santos
+
 Email: alissonaragao1@gmail.com
+
 LinkedIn: [alisson-aragão-dos-santos](https://www.linkedin.com/in/alisson-arag%C3%A3o-dos-santos-459297120/)
