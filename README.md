@@ -9,7 +9,7 @@ Este projeto tem como objetivo realizar a previsão de uma série temporal de qu
 ```
 ├── documentacao  
 |   ├── .gitkeep                            # Arquivo para manter diretórios vazios no repositório Git
-|   ├── dicionario_base.pdf                  # Dicionário de dados detalhando o conjunto utilizado no projeto
+|   ├── dicionario_dados.pdf                # Dicionário de dados detalhando o conjunto utilizado no projeto
 |
 │                                          
 ├── src                                     # Diretório principal com scripts de ETL e análise
