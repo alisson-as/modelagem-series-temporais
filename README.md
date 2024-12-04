@@ -85,6 +85,7 @@ Fluxo de tranformação:
 
 Alisson Aragão dos Santos | [E-mail](alissonaragao1@gmail.com) | [LinkedIn](https://www.linkedin.com/in/alisson-arag%C3%A3o-dos-santos-459297120/)
 
+### Detalhamento técnico, <a href="https://reitoriaunespbr-my.sharepoint.com/:b:/g/personal/alisson_santos_unesp_br/EblKT03KiA5FkLP048qv6yQBNB9GJDIpEoiu4vecCtLb-Q?e=o0ekZb">clique aqui</a>
 
 
 ## Se quiser começar a explorar o projeto, <a href="https://github.com/alisson-as/modelagem-series-temporais/blob/main/src/analysis/analise_e_previsao.ipynb">clique aqui</a>
